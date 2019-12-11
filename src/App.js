@@ -14,14 +14,6 @@ const App = () => {
 		dispatch({type: 'ADD_TO_DO' , payload: input});
 		setInput('');
 	};
-	
-	// const toggleComplete = () => {
-	// 	dispatch({type: 'TOGGLE_COMPLETE'});
-	// };
-
-	// const removeCompleted = () => {
-	// 	dispatch({type: 'REMOVE_COMPLETED'});
-	// };
 
 	return (
 		<>
